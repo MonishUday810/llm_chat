@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-st.title("Student Assistant")
+st.title("Chat")
 
 user_input = st.text_area("Ask about your child:")
 if st.button("Submit"):
